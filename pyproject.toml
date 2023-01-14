@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dlplotlydataset"
+version = "0.1.0"
+description = """\
+This application selects plotly datasets from the Dropdown component and displays it in the DataTable component.\
+The displayed Dataset is saved as a csv file by executing the Button component.\
+"""
+authors = ["7rikaz_h785 <7rikaz.h785.stat2ltas41lcijad@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+dash = "^2.7.1"
+pyperclip = "^1.8.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
