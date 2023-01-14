@@ -10,6 +10,9 @@ This application selects [plotly / datasets](https://github.com/plotly/datasets)
 % git clone https://github.com/7rikazhexde/dlPlotlyDataset.git
 ```
 2. Setup of virtual environment
+
+Run the poetry command.
+
 ```
 % poetry install
 ```
@@ -17,6 +20,12 @@ This application selects [plotly / datasets](https://github.com/plotly/datasets)
 * See [Switching between environments](https://python-poetry.org/docs/managing-environments/#switching-between-environments).  
 * Please run ```poetry env info``` to check your development environment.  
 * If your python version is not 3.10 or higher, please run ```poetry env use python3.10``` to recreate your development environment.  
+
+Or create a virtual environment with venv, pyenv, etc. and run the following command.
+
+```
+% pip install -r requirements.txt
+```
 
 3. Execute the program in a virtual environment
 ```
