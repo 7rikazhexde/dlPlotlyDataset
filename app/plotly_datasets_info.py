@@ -3,6 +3,7 @@ List of datasets committed by Plotly Datasets (list)
 url: https://github.com/plotly/datasets.git
 commit: ca9b6387fbc38afb8ddddc3f5662b56dc565e571
 """
+
 datasets_list = [
     "1962_2006_walmart_store_openings.csv",
     "2010_alcohol_consumption_by_country.csv",
